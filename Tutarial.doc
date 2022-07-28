@@ -17,7 +17,8 @@ CHƯƠNG II: Javascript cơ bản
 1. Biến
 - Hằng: const
 - Biến thay đổi đc: Let, Var
-    + Let: biến cục bộ, giá trị trong 1 vòng lặp hoặc function,... chỉ có tác dụng trong đó, ra ngoài sẽ biến mất
+    + Let: biến cục bộ, giá trị trong 1 vòng lặp hoặc
+    function,... chỉ có tác dụng trong đó, ra ngoài sẽ biến mất
     + Var: Biến toàn cục, giá trị áp dụng cho toàn bộ.
 2. Kiểu dữ liệu
 - Number: 5,4,6,3.2,...
