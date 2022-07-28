@@ -4,21 +4,13 @@ b, Code Backend (NodeJS, Express)
 c, Code App mobile (React Native, Flutter)
 d, Code Game (Cocos, BabylonJS)
 
-JS là ngôn ngữ bất đồng bộ, khác so với các nn đồng bộ như Java,
-C++, PHP,... ở chỗ nó không chạy lần lượt code từ trên xuống dưới
-mà sẽ chạy toàn bộ code cùng lúc nên sẽ đem lại trải nghiệm liền
-lạc hơn trên web, giúp web không phải load lại trang mà vẫn update
-được nội dung. Ngoài ra, các câu lệnh chạy mất thời gian nhưng đứng
-trên vẫn sẽ trả lại kết quả sau những câu lệnh phía dưới, khác so
-với các ngôn ngữ đồng bộ là phải chờ lệnh trên chạy xong thì mới đến
-lệnh dưới. Vì thế JS cho tốc độ xử lý trên web nhanh hơn.
+JS là ngôn ngữ bất đồng bộ, khác so với các nn đồng bộ như Java, C++, PHP,... ở chỗ nó không chạy lần lượt code từ trên xuống dưới mà sẽ chạy toàn bộ code cùng lúc nên sẽ đem lại trải nghiệm liền lạc hơn trên web, giúp web không phải load lại trang mà vẫn update được nội dung. Ngoài ra, các câu lệnh chạy mất thời gian nhưng đứng trên vẫn sẽ trả lại kết quả sau những câu lệnh phía dưới, khác so với các ngôn ngữ đồng bộ là phải chờ lệnh trên chạy xong thì mới đến lệnh dưới. Vì thế JS cho tốc độ xử lý trên web nhanh hơn.
 
 CHƯƠNG II: Javascript cơ bản
 1. Biến
 - Hằng: const
 - Biến thay đổi đc: Let, Var
-    + Let: biến cục bộ, giá trị trong 1 vòng lặp hoặc
-    function,... chỉ có tác dụng trong đó, ra ngoài sẽ biến mất
+    + Let: biến cục bộ, giá trị trong 1 vòng lặp hoặc function,... chỉ có tác dụng trong đó, ra ngoài sẽ biến mất
     + Var: Biến toàn cục, giá trị áp dụng cho toàn bộ.
 2. Kiểu dữ liệu
 - Number: 5,4,6,3.2,...
